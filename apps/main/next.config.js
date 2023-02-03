@@ -1,11 +1,17 @@
 const { DOCS_URL } = process.env
 
+/** @type {import('next').NextConfig} */
 module.exports = {
+  reactStrictMode: true,
+  i18n: {
+    locales: ['en-CA', 'fr-CA'],
+    defaultLocale: 'en-CA',
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   async rewrites() {
     return [
-      /**
-       * Rewrites for Multi Zones
-       */
       {
         source: '/docs',
         destination: `${DOCS_URL}/docs`,
@@ -14,6 +20,6 @@ module.exports = {
         source: '/docs/:path*',
         destination: `${DOCS_URL}/docs/:path*`,
       },
-    ]
+    ];
   },
-}
+};
