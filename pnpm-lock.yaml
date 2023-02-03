@@ -20,6 +20,7 @@ importers:
       '@material-ui/icons': 4.11.2
       '@types/node': 14.14.9
       '@types/react': ^17.0.0
+      clsx: ^1.2.1
       eslint: ^8.11.0
       eslint-config-acme: workspace:*
       next: 12.1.6
@@ -29,6 +30,7 @@ importers:
     dependencies:
       '@material-ui/core': 4.11.2_zsjcj4gvi24ks76nprapl4hsmq
       '@material-ui/icons': 4.11.2_rfjbncgqsombi33y6idvpa63g4
+      clsx: 1.2.1
       next: 12.1.6_sfoxds7t5ydpegc3knd667wn6m
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -45,6 +47,7 @@ importers:
       '@material-ui/icons': 4.11.2
       '@types/node': 14.14.9
       '@types/react': ^17.0.0
+      clsx: ^1.2.1
       eslint: ^8.11.0
       eslint-config-acme: workspace:*
       next: 12.1.6
@@ -54,6 +57,7 @@ importers:
     dependencies:
       '@material-ui/core': 4.11.2_zsjcj4gvi24ks76nprapl4hsmq
       '@material-ui/icons': 4.11.2_rfjbncgqsombi33y6idvpa63g4
+      clsx: 1.2.1
       next: 12.1.6_sfoxds7t5ydpegc3knd667wn6m
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2

@@ -11,6 +11,7 @@
     "clean": "rm -rf .next && rm -rf .turbo"
   },
   "dependencies": {
+    "clsx":"^1.2.1",
     "@material-ui/core": "4.11.2",
     "@material-ui/icons": "4.11.2",
     "next": "12.1.6",
