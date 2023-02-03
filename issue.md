@@ -3,14 +3,14 @@
 ```bash
 ├── apps
 │   ├── main
-│   ├── zone2
+│   ├── docs
 ```
 
 ## Issue
 
-Navigation in zone2 causes a page refresh
+Navigation in docs causes a page refresh
 
-`<domain>/zone2/page/that` -> Click "This Screen" -> page reloads -> `<domain>/zone2/page/this`
+`<domain>/docs/page/that` -> Click "This Screen" -> page reloads -> `<domain>/docs/page/this`
 
 Navigation in the main zone retains SPA routing
 
