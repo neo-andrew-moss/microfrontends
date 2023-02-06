@@ -1,6 +1,6 @@
 export enum ScreenRoutes {
-  this = 'this',
-  that = 'that',
+  this = '/page/this',
+  that = '/page/that',
   invalid = 'invalid',
 }
 
